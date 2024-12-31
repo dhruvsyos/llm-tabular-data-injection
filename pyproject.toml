@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "llm-tabular-data-injection"
+version = "0.1.0"
+description = ""
+authors = ["dhruv <dhruv166kumar@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandasai = "^2.4.1"
+numpy="^1.23.2"
+pandas="1.5.3"
+seaborn = "^0.13.2"
+pyyaml = "^6.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
