@@ -5,7 +5,7 @@ from pandasai import Agent
 
 # Sample DataFrame
 #%%
-df = pd.read_excel("/Users/dhruvarya_peng/Downloads/test dataset.xlsx", sheet_name="Data")
+df = pd.read_excel("./test dataset.xlsx", sheet_name="Data")
 
 # By default, unless you choose a different LLM, it will use BambooLLM.
 # You can get your free API key signing up at https://pandabi.ai (you can also configure it in your .env file)
